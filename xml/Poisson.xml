@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Poisson estVisible="true">
+    
+    <!-->String : nom ;  Tuile : position ; bool : estVisible(true) ;  Texture2D : rexture  <!-->
+
+    <Nom></Nom>
+    <Position></Position>
+    <Texture></Texture>
+    
+    
+</Poisson>

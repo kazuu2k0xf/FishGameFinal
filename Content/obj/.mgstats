@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/carte.png","C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/bin/carte.xnb","TextureProcessor","Texture2DContent",2884097,7502485,0,2751516
+"C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/pecheur.png","C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/bin/pecheur.xnb","TextureProcessor","Texture2DContent",169437,997889,0,0213086
+"C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/poisson.png","C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/Content/bin/poisson.xnb","TextureProcessor","Texture2DContent",91610,997889,0,0237273

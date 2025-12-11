@@ -1,0 +1,63 @@
+@startuml
+    class Jeu {
+        +Niveau niveauCourant
+        +Démarrer()
+        +Terminer()
+    }
+
+    class Niveau {
+        +int tailleGrille = 8x8
+        +Tuile[8][8] grille
+        +Pêcheur joueur
+        +int mouvementsMax
+        +Tuile caseSortie
+        +ChargerXML(fichierXML)
+    }
+
+    class Pêcheur {
+        <<abstract>>
+        +string nom
+        +int mouvementsRestants
+        +Tuile positionActuelle
+        +bool aPoisson = false
+        +bool aOutil = false
+        +Déplacer(direction)
+        +Ramasser(objet)
+    }
+
+    class PêcheurCanne {
+        +string outilQuete = "Canne à pêche"
+    }
+    class PêcheurCuillère {
+        +string outilQuete = "Cuillère"
+    }
+    class PêcheurFilet {
+        +string outilQuete = "Filet"
+    }
+
+    class Poisson {
+        +string nom
+        +Tuile position
+    }
+
+    class Tuile {
+        +int x
+        +int y
+        +char estBloquant
+        +int coûtMouvement = 1
+    }
+    
+    Jeu "1" *-- "1" Niveau : contient
+    Niveau "1" *-- "1" Pêcheur : a
+    Niveau "1" *-- "1" Poisson : contient
+   
+    Niveau "1" *-- "64" Tuile : est un ensemble
+
+    Pêcheur<|--  PêcheurCanne
+    Pêcheur<|--  PêcheurCuillère
+    Pêcheur<|-- PêcheurFilet
+    
+    Pêcheur "1" *-- "1" Tuile : est sur
+    Poisson "1" *-- "1" Tuile : est sur
+ 
+@enduml

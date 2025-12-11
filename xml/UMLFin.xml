@@ -1,0 +1,60 @@
+<jeup:jeu xmlns:jeup="http://www.l3miage.fr/JeuPoissonCordaUML">
+    
+    <jeup:etatJeu>Playing</jeup:etatJeu>
+  <jeup:niveauCourant>
+      
+    <jeup:mouvementMax>30</jeup:mouvementMax>
+      
+    <jeup:joueur>
+      <jeup:nom>PecheurAtayon</jeup:nom>
+        <jeup:texturePecheur>
+            <jeup:textNom>Pecheur</jeup:textNom>
+        </jeup:texturePecheur>
+      <jeup:mouvementRestant>30</jeup:mouvementRestant>
+      <jeup:positionActuelle>
+        <jeup:coordonnees posX="3" posY="2"/>
+        <jeup:estBloquant>false</jeup:estBloquant>
+        <jeup:constLargeur>225</jeup:constLargeur>
+        <jeup:constHauteur>130</jeup:constHauteur>
+      </jeup:positionActuelle>
+      <jeup:aPoisson>false</jeup:aPoisson>
+      <jeup:aOutil>false</jeup:aOutil>
+    </jeup:joueur>
+      
+    <jeup:poisson>
+      <jeup:nom>string</jeup:nom>
+        <jeup:texturePoisson>
+            <jeup:textNom>Poisson</jeup:textNom>
+        </jeup:texturePoisson>
+      <jeup:position>
+        <jeup:coordonnees posX="7" posY="2"/>
+        <jeup:estBloquant>false</jeup:estBloquant>
+        <jeup:constLargeur>3</jeup:constLargeur>
+        <jeup:constHauteur>3</jeup:constHauteur>
+      </jeup:position>
+      <jeup:estVisible>true</jeup:estVisible>
+    </jeup:poisson>
+      
+    <jeup:caseSortie>
+      <jeup:coordonnees posX="7" posY="6"/>
+      <jeup:estBloquant>false</jeup:estBloquant>
+      <jeup:constLargeur>225</jeup:constLargeur>
+      <jeup:constHauteur>130</jeup:constHauteur>
+    </jeup:caseSortie>
+      
+      <jeup:textPecheur>
+          <jeup:textNom>Pecheur</jeup:textNom>
+      </jeup:textPecheur>
+      
+      <jeup:textPoisson>
+          <jeup:textNom>Poisson</jeup:textNom>
+      </jeup:textPoisson>
+      
+      <jeup:textCarte>
+          <jeup:textNom>wood</jeup:textNom>
+      </jeup:textCarte>
+    <jeup:collones>8</jeup:collones>
+    <jeup:lignes>8</jeup:lignes>
+      
+  </jeup:niveauCourant>
+</jeup:jeu>
