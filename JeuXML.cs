@@ -156,10 +156,10 @@ public class JeuXML
             }
             
 
-            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[1]];
+           //Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[1]];
             
 
-            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[1]];
+            //Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[1]];
 
 
         }
@@ -221,7 +221,7 @@ public unPoint(){}
         
         MonNiveau.InitialiserNiveau();
         
-        List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/niveau1.xml"); 
+        List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml"); 
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX = posDepart[0];
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY = posDepart[1];
         MonNiveau._Pecheur.MouvementRestant = MonNiveau.mouvementMax;   

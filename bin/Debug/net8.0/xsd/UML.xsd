@@ -24,7 +24,6 @@
         </restriction>
     </simpleType>
     
-    
     <!--- Type Niveau -->
     <complexType name="Niveau">
         <sequence>    <!--- Il manque le tableau mais il est créer directement dans la methode IniltialiserNiveau() -->
@@ -32,9 +31,6 @@
             <element name="joueur" type="jeu:Pecheur" minOccurs="1" maxOccurs="1"></element>
             <element name="poisson" type="jeu:Poisson" minOccurs="1" maxOccurs="1"></element>
             <element name="caseSortie" type="jeu:Tuile"></element>
-            <element name="textPecheur" type="jeu:Texture2D"></element>
-            <element name="textPoisson" type="jeu:Texture2D"></element>
-            <element name="textCarte" type="jeu:Texture2D"></element>
             <element name="collones" type="int"></element>
             <element name="lignes" type="int"></element>
         </sequence>
@@ -44,20 +40,17 @@
     <complexType name="Pecheur">
         <sequence>
             <element name="nom" type="string" minOccurs="1" maxOccurs="1"> </element>
-            <element name="texturePecheur" type="jeu:Texture2D"></element>
             <element name="mouvementRestant" type="int" minOccurs="1" maxOccurs="1"> </element>
             <element name="positionActuelle" type="jeu:Tuile" minOccurs="1" maxOccurs="1"> </element>
             <element name="aPoisson" type="boolean" minOccurs="1" maxOccurs="1"> </element>
             <element name="aOutil" type="boolean"></element>
         </sequence>
     </complexType>
-
-
-    <!--- Type Poisson -->
+    
+    <!--- Class Poisson -->
     <complexType name="Poisson">
         <sequence>
             <element name="nom" type="string" minOccurs="1" maxOccurs="1"></element>
-            <element name="texturePoisson" type="jeu:Texture2D"></element>
             <element name="position" type="jeu:Tuile" minOccurs="1" maxOccurs="1"></element>
             <element name="estVisible" type="boolean" minOccurs="1" maxOccurs="1"></element>
         </sequence>
@@ -72,32 +65,30 @@
             <element name="constHauteur" type="int" minOccurs="1" maxOccurs="1"></element>
         </sequence>
     </complexType>
+
     
-    <complexType name="Texture2D">
-        <sequence>
-            <element name="textNom" type="string"></element>
-        </sequence>
-    </complexType>
-
-
     <!--- Type Carte -->
     <complexType name="Carte">
         <sequence>
             <element name="collision" type="jeu:Collision"></element>
         </sequence>
     </complexType>
-
+    
+    <!--- Class  Point  -->
     <complexType name="Point">
         <attribute name="posX" type ="jeu:Pos"></attribute>
         <attribute name="posY" type ="jeu:Pos"></attribute>
     </complexType>
-    
+
+    <!--- Type Pos pour un point  -->
     <simpleType name="Pos">
         <restriction base ="int">
             <pattern value="[0-7]{1}"/>
         </restriction>
     </simpleType>
-    <!--- Class Colisi -->
+    
+    <!--- Class Colision 
+       Objectif : récupérer les colisions grâce à un parser ou un deserialiser-->
     <complexType name="Collision">
         <sequence>
             <element name="ligne" type="jeu:Ligne" minOccurs="8" maxOccurs="8"> </element>

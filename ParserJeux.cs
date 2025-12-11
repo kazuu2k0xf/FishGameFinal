@@ -24,7 +24,7 @@ public class ParserJeux
             switch (reader.NodeType)
             {
                 case XmlNodeType.Element:
-                    if (reader.Name == "Joueur")
+                    if (reader.Name == "joueur")
                     {
                         reader.ReadToDescendant("coordonnees");
                         reader.MoveToAttribute("posX");

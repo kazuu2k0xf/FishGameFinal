@@ -1,74 +1,73 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<xs:schema version ="1.0"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<schema version ="1.0"
+           xmlns="http://www.w3.org/2001/XMLSchema"
            targetNamespace="http://www.l3miage.fr/JeuPoisson"
            xmlns:jp="http://www.l3miage.fr/JeuPoisson"
            elementFormDefault="qualified">
 
 
-<xs:element name="niveau" type="jp:Niveau"> </xs:element>
+<element name="niveau" type="jp:Niveau"> </element>
     
     <!--- Type JeuPoisson -->
-    <xs:complexType name="Niveau">
-        <xs:sequence>
-            <xs:element name="general" type="jp:General" minOccurs="1" maxOccurs="1"> </xs:element>
-            <xs:element name="carte" type="jp:Carte" minOccurs="1"> </xs:element> 
-        </xs:sequence>
-    </xs:complexType>
+    <complexType name="Niveau">
+        <sequence>
+            <element name="general" type="jp:General" minOccurs="1" maxOccurs="1"> </element>
+            <element name="carte" type="jp:Carte" minOccurs="1"> </element> 
+        </sequence>
+    </complexType>
 
     <!--- Type General -->
-    <xs:complexType name="General">
-        <xs:sequence>   
-            <xs:element name="joueur" type="jp:Joueur" minOccurs="1" maxOccurs="1"> </xs:element>
-            <xs:element name="poisson" type="jp:Poisson" minOccurs="1" maxOccurs="1"> </xs:element>
-            <xs:element name="fin" type="jp:Fin" minOccurs="1" maxOccurs="1"> </xs:element>
-            <xs:element name="pas" type="jp:Pas" minOccurs="1" maxOccurs="1"> </xs:element>
-        </xs:sequence>
-    </xs:complexType>
+    <complexType name="General">
+        <sequence>   
+            <element name="joueur" type="jp:Joueur" minOccurs="1" maxOccurs="1"> </element>
+            <element name="poisson" type="jp:Poisson" minOccurs="1" maxOccurs="1"> </element>
+            <element name="fin" type="jp:Fin" minOccurs="1" maxOccurs="1"> </element>
+            <element name="pas" type="jp:Pas" minOccurs="1" maxOccurs="1"> </element>
+        </sequence>
+    </complexType>
 
     <!--- Type Joueur -->
-    <xs:complexType name="Joueur">
-        <xs:attribute name="x" type="xs:int"/>   <!--- x toujour entre 0 et 7  -->
-        <xs:attribute name="y" type="xs:int"/>   <!--- y toujour entre 0 et 7  -->
-    </xs:complexType>
+    <complexType name="Joueur">
+        <attribute name="x" type="int"/>   <!--- x toujours entre 0 et 7  -->
+        <attribute name="y" type="int"/>   <!--- y toujours entre 0 et 7  -->
+    </complexType>
     
     <!--- Type Poisson -->
-    <xs:complexType name="Poisson">
-        <xs:attribute name="x" type="xs:int" use="required"/>  <!--- x toujour entre 0 et 7  -->
-        <xs:attribute name="y" type="xs:int" use="required"/>  <!--- y toujour entre 0 et 7  -->
-        <xs:attribute name="texture" type="xs:string" use="required"></xs:attribute>
-        <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
-        <xs:attribute  name="estVisible" type="xs:boolean" use="required"></xs:attribute>
-    </xs:complexType>
+    <complexType name="Poisson">
+        <attribute name="x" type="int" use="required"/>  <!--- x toujours entre 0 et 7  -->
+        <attribute name="y" type="int" use="required"/>  <!--- y toujours entre 0 et 7  -->
+        <attribute name="texture" type="string" use="required"></attribute>
+        <attribute name="nom" type="string" use="required"></attribute>
+        <attribute  name="estVisible" type="boolean" use="required"></attribute>
+    </complexType>
 
     <!--- Type Fin -->
-    <xs:complexType name="Fin">
-        <xs:attribute name="x" type="xs:int"/>
-        <xs:attribute name="y" type="xs:int"/>
-    </xs:complexType>
-
-
+    <complexType name="Fin">
+        <attribute name="x" type="int"/>
+        <attribute name="y" type="int"/>
+    </complexType>
+    
     <!--- Type Pas -->
-    <xs:complexType name="Pas">
-        <xs:attribute name="nombrePAS" type="xs:int"/>
-    </xs:complexType>
+    <complexType name="Pas">
+        <attribute name="nombrePAS" type="int"/>
+    </complexType>
 
     <!--- Type Carte -->
-    <xs:complexType name="Carte">
-        <xs:sequence>
-            <xs:element name="collision" type="jp:Collision">  </xs:element>
-        </xs:sequence>
-    </xs:complexType>
+    <complexType name="Carte">
+        <sequence>
+            <element name="collision" type="jp:Collision">  </element>
+        </sequence>
+    </complexType>
     
-    <xs:complexType name="Collision">
-        <xs:sequence>
-            <xs:element name="ligne" type="jp:Ligne" minOccurs="8" maxOccurs="8"> </xs:element>
-        </xs:sequence>
-    </xs:complexType>
+    <complexType name="Collision">
+        <sequence>
+            <element name="ligne" type="jp:Ligne" minOccurs="8" maxOccurs="8"> </element>
+        </sequence>
+    </complexType>
     
-    <xs:simpleType name="Ligne">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="[C ]{8}"/>
-        </xs:restriction>
-    </xs:simpleType>
-</xs:schema>
+    <simpleType name="Ligne">
+        <restriction base="string">
+            <pattern value="[C ]{8}"/>
+        </restriction>
+    </simpleType>
+</schema>

@@ -7,15 +7,11 @@
     </pseudo>
     <pseudo>
       <nom>Player2</nom>
-      <nbpas>7</nbpas>
+      <nbpas>12</nbpas>
     </pseudo>
     <pseudo>
       <nom>Player3</nom>
-      <nbpas>11</nbpas>
-    </pseudo>
-    <pseudo>
-      <nom>Player4</nom>
-      <nbpas>11</nbpas>
+      <nbpas>8</nbpas>
     </pseudo>
   </listespseudos>
 </highscore>
