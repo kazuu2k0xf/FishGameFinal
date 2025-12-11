@@ -4,9 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/badou/Documents/JeuPoisson-master/Content/carte.png</File>
-    <File>C:/Users/badou/Documents/JeuPoisson-master/Content/pecheur.png</File>
-    <File>C:/Users/badou/Documents/JeuPoisson-master/Content/poisson.png</File>
+    <File>/home/m/mehannil/RiderProjects/FishGameFinal/Content/carte.png</File>
+    <File>/home/m/mehannil/RiderProjects/FishGameFinal/Content/pecheur.png</File>
+    <File>/home/m/mehannil/RiderProjects/FishGameFinal/Content/poisson.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

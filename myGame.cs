@@ -20,6 +20,7 @@ namespace FishGame
         private Texture2D _texPecheur, _texCarte, _texPoisson;
 
         public string pseudo;
+        private bool _scoreSauvegarde = false;
 
         public myGame()
         {
@@ -87,19 +88,19 @@ namespace FishGame
             if ((JeuDeserializer.Etat== JeuXML.EtatJeu.PERDU || JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER ) &&       
                 (currentKb.IsKeyDown(Keys.Enter) && (_previousKeyboardState.IsKeyUp(Keys.Enter))))     // if ((_jeu.Etat == EtatDuJeux.GameOver || _jeu.Etat == EtatDuJeux.GameWon) && currentKb.IsKeyDown(Keys.Enter) && _previousKeyboardState.IsKeyUp(Keys.Enter))
             {
+                _scoreSauvegarde = false;
+                if (JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER && !_scoreSauvegarde)
+                {
+           
+                
+                    HighscoreDom highscoreDom = new HighscoreDom("../../../xml/sauvegardePartie.xml");
+                
+                    highscoreDom.AjouterScore( 30 - JeuDeserializer.MonNiveau._Pecheur.MouvementRestant);
+                    _scoreSauvegarde = true;
+                }
                 JeuDeserializer.Démarrage(_texCarte, _texPecheur, _texPoisson);
             }
-
-            if (JeuDeserializer.Etat== JeuXML.EtatJeu.PERDU || JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER)
-            {
-
-                Highscore score  = new Highscore();
-                Pseudos pseudo = new Pseudos(JeuDeserializer.MonNiveau._Pecheur.Nom, 30 -JeuDeserializer.MonNiveau._Pecheur.MouvementRestant);
-                score.ajouterPseudo(pseudo);
-                   
-                XMLManager<Highscore> highscoreManager = new XMLManager<Highscore>();
-                highscoreManager.Save("../../../xml/sauvegardePartie.xml", score);
-            }
+            
 
             JeuDeserializer.Update();
             _previousKeyboardState = currentKb;

@@ -1,1 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/m/mehannil/RiderProjects/FishGameFinal/Content/carte.png","/home/m/mehannil/RiderProjects/FishGameFinal/Content/bin/DesktopGL/Content/carte.xnb","TextureProcessor","Texture2DContent",2884097,7502485,2.1509898
+"/home/m/mehannil/RiderProjects/FishGameFinal/Content/pecheur.png","/home/m/mehannil/RiderProjects/FishGameFinal/Content/bin/DesktopGL/Content/pecheur.xnb","TextureProcessor","Texture2DContent",169437,997889,0.2093325
+"/home/m/mehannil/RiderProjects/FishGameFinal/Content/poisson.png","/home/m/mehannil/RiderProjects/FishGameFinal/Content/bin/DesktopGL/Content/poisson.xnb","TextureProcessor","Texture2DContent",91610,997889,0.9983406

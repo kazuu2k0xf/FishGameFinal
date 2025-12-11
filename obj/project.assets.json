@@ -295,19 +295,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\badou\\.nuget\\packages\\": {}
+    "/home/m/mehannil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\badou\\Documents\\JeuPoisson-master\\FishGame.csproj",
+      "projectUniqueName": "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj",
       "projectName": "FishGame",
-      "projectPath": "C:\\Users\\badou\\Documents\\JeuPoisson-master\\FishGame.csproj",
-      "packagesPath": "C:\\Users\\badou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\badou\\Documents\\JeuPoisson-master\\obj\\",
+      "projectPath": "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj",
+      "packagesPath": "/home/m/mehannil/.nuget/packages/",
+      "outputPath": "/home/m/mehannil/RiderProjects/FishGameFinal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\badou\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/m/mehannil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -325,13 +325,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -357,30 +351,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.11, 8.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\badou\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

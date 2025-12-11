@@ -118,160 +118,201 @@ C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/FishGame.genruntimeconf
 C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/ref/FishGame.dll
 C:/Users/laf06/RiderProjects/JeuPoisson/bin/Debug/net8.0/niveau1.xml
 /home/k/kernoub/Téléchargements/FishGame/bin/Debug/net8.0/niveau1.xml
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\aaa.xnb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\Mur.xnb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\pecheur.xnb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\poisson.xnb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\wood.xnb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\niveau1.xml
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.exe
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.deps.json
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.runtimeconfig.json
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.pdb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\MonoGame.Framework.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\NVorbis.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\mgcb.tool.restore
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.AssemblyReference.cache
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfoInputs.cache
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfo.cs
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.CoreCompileInputs.cache
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.Up2Date
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\refint\FishGame.dll
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.pdb
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.genruntimeconfig.cache
-C:\Users\badou\Downloads\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\ref\FishGame.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\mgcb.tool.restore
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\refint\FishGame.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.pdb
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\Content\pecheur.xnb
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\Content\poisson.xnb
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\Content\wood.xnb
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\FishGame.exe
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\FishGame.deps.json
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\FishGame.runtimeconfig.json
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\FishGame.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\FishGame.pdb
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\MonoGame.Framework.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\NVorbis.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.AssemblyReference.cache
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfoInputs.cache
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfo.cs
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.CoreCompileInputs.cache
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.Up2Date
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\FishGame.genruntimeconfig.cache
-C:\Users\hugom\RiderProjects\JeuPoisson-master\obj\Debug\net8.0\ref\FishGame.dll
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\xml\niveau1.xml
-C:\Users\hugom\RiderProjects\JeuPoisson-master\bin\Debug\net8.0\xsd\JeuPoisson.xsd
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\pecheur.xnb
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\poisson.xnb
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.exe
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\xml\niveau1.xml
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\xsd\JeuPoisson.xsd
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.deps.json
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.runtimeconfig.json
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\FishGame.pdb
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\MonoGame.Framework.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\NVorbis.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\mgcb.tool.restore
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.AssemblyReference.cache
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfoInputs.cache
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfo.cs
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.CoreCompileInputs.cache
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.Up2Date
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\refint\FishGame.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.pdb
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\FishGame.genruntimeconfig.cache
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\obj\Debug\net8.0\ref\FishGame.dll
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\xsd\UML.xsd
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\xml\UMLFin.xml
-C:\Users\salah\Desktop\L3 MIAGE\XML\JeuPoisson-master\JeuPoisson-master\bin\Debug\net8.0\Content\carte.xnb
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\Content\carte.xnb
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\Content\pecheur.xnb
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\Content\poisson.xnb
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\FishGame.exe
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\xml\niveau1.xml
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\xml\UMLFin.xml
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\xsd\JeuPoisson.xsd
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\xsd\UML.xsd
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\FishGame.deps.json
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\FishGame.runtimeconfig.json
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\FishGame.dll
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\FishGame.pdb
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\MonoGame.Framework.dll
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\NVorbis.dll
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-arm64\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x64\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\android-x86\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\ios-arm64\native\libopenal.a
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-arm64\native\libopenal.a
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\iossimulator-x64\native\libopenal.a
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-arm64\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libopenal.so
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libopenal.dylib
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\openal.dll
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\osx\native\libSDL2-2.0.0.dylib
-C:\Users\badou\Documents\JeuPoisson-master\bin\Debug\net8.0\runtimes\win-x64\native\SDL2.dll
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\mgcb.tool.restore
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.AssemblyReference.cache
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfoInputs.cache
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.AssemblyInfo.cs
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.CoreCompileInputs.cache
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.csproj.Up2Date
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.dll
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\refint\FishGame.dll
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.pdb
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\FishGame.genruntimeconfig.cache
-C:\Users\badou\Documents\JeuPoisson-master\obj\Debug\net8.0\ref\FishGame.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/aaa.xnb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/Mur.xnb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/wood.xnb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/niveau1.xml
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.pdb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/MonoGame.Framework.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/NVorbis.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/mgcb.tool.restore
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.AssemblyReference.cache
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfoInputs.cache
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfo.cs
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.CoreCompileInputs.cache
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.Up2Date
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/refint/FishGame.dll
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.pdb
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/mgcb.tool.restore
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/refint/FishGame.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.pdb
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/Content/wood.xnb
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/FishGame.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/FishGame.pdb
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/MonoGame.Framework.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/NVorbis.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.AssemblyReference.cache
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfoInputs.cache
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfo.cs
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.CoreCompileInputs.cache
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.Up2Date
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
+C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.pdb
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/MonoGame.Framework.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/NVorbis.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/mgcb.tool.restore
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.AssemblyReference.cache
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfoInputs.cache
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfo.cs
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.CoreCompileInputs.cache
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.Up2Date
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/refint/FishGame.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.pdb
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xsd/UML.xsd
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xml/UMLFin.xml
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/carte.xnb
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/carte.xnb
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xml/UMLFin.xml
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xsd/UML.xsd
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.dll
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.pdb
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/MonoGame.Framework.dll
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/NVorbis.dll
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/mgcb.tool.restore
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.AssemblyReference.cache
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfoInputs.cache
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.AssemblyInfo.cs
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.CoreCompileInputs.cache
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.Up2Date
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.dll
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/refint/FishGame.dll
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.pdb
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
+C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/Content/carte.xnb
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/Content/pecheur.xnb
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/Content/poisson.xnb
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xml/niveau1.xml
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xml/UMLFin.xml
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xsd/JeuPoisson.xsd
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xsd/UML.xsd
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame.deps.json
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame.runtimeconfig.json
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame.pdb
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/MonoGame.Framework.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/NVorbis.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/android-arm/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/android-arm64/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/android-x64/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/android-x86/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/ios-arm64/native/libopenal.a
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/iossimulator-arm64/native/libopenal.a
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/iossimulator-x64/native/libopenal.a
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/linux-arm64/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/linux-x64/native/libopenal.so
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/osx/native/libopenal.dylib
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/win-x64/native/openal.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/osx/native/libSDL2-2.0.0.dylib
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/runtimes/win-x64/native/SDL2.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/mgcb.tool.restore
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.csproj.AssemblyReference.cache
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.AssemblyInfoInputs.cache
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.AssemblyInfo.cs
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.csproj.CoreCompileInputs.cache
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.sourcelink.json
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.csproj.CopyComplete
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/refint/FishGame.dll
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.pdb
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
+/home/m/mehannil/RiderProjects/FishGameFinal/obj/Debug/net8.0/ref/FishGame.dll

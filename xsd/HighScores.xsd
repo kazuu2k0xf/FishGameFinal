@@ -1,20 +1,26 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <schema version ="1.0"
-           xmlns="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.l3miage.fr/HighScores"
-           xmlns:hs="http://www.l3miage.fr/HighScores"
-           elementFormDefault="qualified">
-    
-<!-- element racine -->
-<element name ="highscore" type="hs:Highscore"/>
-    
-    <!-- Class Highscore -->  
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.l3miage.fr/HighScores"
+        xmlns:hs="http://www.l3miage.fr/HighScores"
+        elementFormDefault="qualified">
+
+    <!-- element racine -->
+    <element name ="highscore" type="hs:Highscore"/>
+
+    <!-- Class Highscore -->
     <complexType name="Highscore">
         <sequence>
-            <element name = "listespseudos" type ="hs:Pseudo" maxOccurs="unbounded"></element>
+            <element name = "listespseudos" type ="hs:Listepseudos" maxOccurs="1"></element>
         </sequence>
     </complexType>
-    
+
+    <complexType name="Listepseudos">
+        <sequence>
+            <element name ="pseudo" type ="hs:Pseudo" maxOccurs="unbounded"></element>
+        </sequence>
+    </complexType>
+
     <!-- Class Pseudos-->
     <complexType name="Pseudo">
         <sequence>

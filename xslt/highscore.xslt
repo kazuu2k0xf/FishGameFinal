@@ -25,7 +25,7 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="cab:listespseudos">
+    <xsl:template match="cab:pseudo">
         <tr>
             <td><xsl:value-of select="cab:nom"/></td>
             <td><xsl:value-of select="cab:nbpas"/></td>

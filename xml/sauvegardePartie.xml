@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <highscore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.l3miage.fr/HighScores">
   <listespseudos>
-    <nom>PecheurAtayon</nom>
-    <nbpas>21</nbpas>
+    <pseudo>
+      <nom>Player1</nom>
+      <nbpas>9</nbpas>
+    </pseudo>
+    <pseudo>
+      <nom>Player2</nom>
+      <nbpas>7</nbpas>
+    </pseudo>
+    <pseudo>
+      <nom>Player3</nom>
+      <nbpas>11</nbpas>
+    </pseudo>
   </listespseudos>
 </highscore>
