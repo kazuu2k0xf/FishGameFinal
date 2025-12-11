@@ -4,35 +4,47 @@ using System.Xml;
 
 namespace FishGame;
 
+/**
+ * Classe qui permet de parser en XML reader un fichier xml
+ */
 public class ParserJeux
 {
-        static public List<int> ParserPositionJoueur(String filename)
-        {
-            //Parse le fichier
-            XmlReader reader = XmlReader.Create(filename);
-            List<int> positionJoueur = new List<int>();
+    /**
+     * Méthode qui permet de parser la position de la case de départ d'un joueur
+     * Prend en parametre le chemin du fichier xml
+     * Retourne une list avec les coordonnées x et y
+     */
+    static public List<int> ParserPositionJoueur(String filename)
+    {
+        XmlReader reader = XmlReader.Create(filename);
+        List<int> positionJoueur = new List<int>();
 
-            while (reader.Read())
+        while (reader.Read())
+        {
+            switch (reader.NodeType)
             {
-                switch (reader.NodeType)
-                {
-                    case XmlNodeType.Element:
-                        if (reader.Name == "Joueur")
-                        {
-                            reader.MoveToFirstAttribute();
-                            positionJoueur.Add(int.Parse(reader.Value));
-                            reader.MoveToNextAttribute();
-                            positionJoueur.Add(int.Parse(reader.Value));
-                        }
-                        break;
-                }
+                case XmlNodeType.Element:
+                    if (reader.Name == "Joueur")
+                    {
+                        reader.ReadToDescendant("coordonnees");
+                        reader.MoveToAttribute("posX");
+                        positionJoueur.Add(int.Parse(reader.Value));
+                        reader.MoveToNextAttribute();
+                        positionJoueur.Add(int.Parse(reader.Value));
+                    }
+                    break;
             }
-            return positionJoueur;
         }
+        return positionJoueur;
+    }
         
+    /**
+    * Méthode qui permet de parser la position de la case de départ d'un poisson
+    * Prend en parametre le chemin du fichier xml
+    * Retourne une list avec les coordonnées x et y
+    */
     static public List<int> ParserPositionPoisson(String filename)
     {
-        //Parse le fichier
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionPoisson = new List<int>();
         int x = 0;
@@ -42,12 +54,13 @@ public class ParserJeux
             switch (reader.NodeType)
             {
                 case XmlNodeType.Element:
-                    if (reader.Name == "Poisson")
+                    if (reader.Name == "positionActuelle")
                     {
-                        reader.MoveToFirstAttribute();
+                        reader.ReadToDescendant("coordonnees");
+                        reader.MoveToAttribute("posX");
                         positionPoisson.Add(int.Parse(reader.Value));
                         reader.MoveToNextAttribute();
-                        positionPoisson.Add(int.Parse(reader.Value));
+                        positionPoisson.Add(int.Parse(reader.Value));;
                     }
                     break;
             }
@@ -55,10 +68,14 @@ public class ParserJeux
 
         return positionPoisson;
     }
-
+    
+    /**
+    * Méthode qui permet de parser la position de la case de fin
+    * Prend en parametre le chemin du fichier xml
+    * Retourne une list avec les coordonnées x et y
+    */
     static public List<int> ParserPositionFin(String filename)
     {
-        //Parse le fichier
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionFin = new List<int>();
 
@@ -69,8 +86,9 @@ public class ParserJeux
             switch (reader.NodeType)
             {
                 case XmlNodeType.Element:
-                    if (reader.Name == "Fin")
+                    if (reader.Name == "caseSortie")
                     {
+                        reader.ReadToDescendant("coordonnees");
                         reader.MoveToFirstAttribute();
                         positionFin.Add(int.Parse(reader.Value));
                         reader.MoveToNextAttribute();
@@ -82,9 +100,14 @@ public class ParserJeux
         return positionFin;
     }
     
+    /**
+    * Méthode qui permet de parser le nombre de pas du joueur
+    * Prend en parametre le chemin du fichier xml
+    * Retourne un entier
+     * dans ce cas on lutilise pas car on désérialise deja tous le document xml
+    */
     static public int ParserNbPas(String filename)
     {
-        //Parse le fichier
         XmlReader reader = XmlReader.Create(filename);
         int nbPas = 0;
 
@@ -93,10 +116,10 @@ public class ParserJeux
             switch (reader.NodeType)
             {
                 case XmlNodeType.Element:
-                    if (reader.Name == "Pas")
+                    if (reader.Name == "joueur")
                     {
                         nbPas = reader.ReadElementContentAsInt();
-                       
+                      
                     }
                     break;
             }

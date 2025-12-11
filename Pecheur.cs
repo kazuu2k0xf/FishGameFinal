@@ -34,17 +34,17 @@ namespace FishGame
 
             sourceRect = new Rectangle(0, 0, _frameWidth, _frameHeight);
         }
-
+        /**
+        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
+        * decremente le compteur de pas pour chaque déplacement
+        */
         public void Déplacer(int x, int y, Niveau niveau)
         {
             if (mouvementsRestants <= 0) return;
 
             int nouveauX = positionActuelle.coordonnees.X + x;
             int nouveauY = positionActuelle.coordonnees.Y+ y;
-
-            //verif si le déplacement es bien dans la map 
-            // si déplacement possible, verification si case est pas bloquante
-            // si possible on déplace et on décrémente le compteur de mouvement
+            
             if (nouveauX >= 0 && nouveauX < 8 && nouveauY >= 0 && nouveauY < 8)
             {
                 Tuile cible =  niveau.grille[nouveauX, nouveauY];
@@ -57,8 +57,9 @@ namespace FishGame
                 }
             }
         }
-       
-
+        /**
+        * sert a la direction du pecheur ( conversion touche vers vecteur direction )
+        */
         public void GererEntree(KeyboardState currentKb, KeyboardState previousKb, Niveau niveau)
         {
             int dx = 0;

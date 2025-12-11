@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj": {}
+    "C:\\Users\\hugom\\RiderProjects\\FishGameFinal\\FishGame.csproj": {}
   },
   "projects": {
-    "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj": {
+    "C:\\Users\\hugom\\RiderProjects\\FishGameFinal\\FishGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj",
+        "projectUniqueName": "C:\\Users\\hugom\\RiderProjects\\FishGameFinal\\FishGame.csproj",
         "projectName": "FishGame",
-        "projectPath": "/home/m/mehannil/RiderProjects/FishGameFinal/FishGame.csproj",
-        "packagesPath": "/home/m/mehannil/.nuget/packages/",
-        "outputPath": "/home/m/mehannil/RiderProjects/FishGameFinal/obj/",
+        "projectPath": "C:\\Users\\hugom\\RiderProjects\\FishGameFinal\\FishGame.csproj",
+        "packagesPath": "C:\\Users\\hugom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugom\\RiderProjects\\FishGameFinal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio 2022\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/m/mehannil/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hugom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -63,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.121/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,7 +13,7 @@ namespace FishGame
     {
         public Niveau niveauCourant;
         public EtatDuJeux Etat { get; set; } = EtatDuJeux.Playing;
-
+        /** Initialise Etat du jeu et texture envoyer a niveau**/
         public void Démarrer(Texture2D tCarte, Texture2D tPech, Texture2D tPois)
         {
             niveauCourant = new Niveau(tCarte, tPech, tPois);

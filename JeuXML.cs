@@ -13,7 +13,7 @@ namespace FishGame;
 
 
 [Serializable]
-[XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonCordaUML")] //A modifier avec les vrai URI ET ROOT
+[XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonCordaUML")] 
 public class JeuXML
 {
     [XmlElement("niveauCourant")] public unNiveau MonNiveau;   //rajout static pour y avoir acces dans update
@@ -22,15 +22,18 @@ public class JeuXML
     {
         [XmlElement("nom")] public String Nom { get; set; }
         [XmlElement("coordonnees")] public int coordonnees;
-        //[XmlElement("texturePecheur")] public String textPecheur;
+   
         [XmlElement("mouvementRestant")] public int MouvementRestant;
         [XmlElement("positionActuelle")] public uneTuile PositionActuelle;  //rajout static  pour deplacer
         [XmlElement("aPoisson")] public bool aPoisson;
         [XmlElement("aOutil")] public bool aOutil;
         
-        [XmlIgnore] public Rectangle sourceRect;
+       
+      
         
-        
+        /**
+        * sert a la direction du pecheur ( conversion touche vers vecteur direction )
+        */
         public void GererMonEntree(KeyboardState currentKb, KeyboardState previousKb, unNiveau niveau)
         {
             int dx = 0;
@@ -48,7 +51,10 @@ public class JeuXML
         }
         
         
-        
+        /**
+        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas 
+        * decremente le compteur de pas pour chaque déplacement
+        */
         public void seDéplacer(int x, int y, unNiveau niveau)
         {
             if (MouvementRestant <= 0) return;
@@ -61,14 +67,14 @@ public class JeuXML
             // si possible on déplace et on décrémente le compteur de mouvement
             if (nouveauX >= 0 && nouveauX < 8 && nouveauY >= 0 && nouveauY < 8)
             {
-                Tuile cible =  niveau.grille[nouveauX, nouveauY];  //remettre Tuile si marche pas 
+                Tuile cible =  niveau.grille[nouveauX, nouveauY];  
                
                 if (!cible.estBloquant)
                 {
                     PositionActuelle.Coordonnes._PosX = cible.coordonnees.X;
                     PositionActuelle.Coordonnes._PosY = cible.coordonnees.Y;
-                    //PositionActuelle = cible;  //JeuXML.Niveau._Pecheur.PositionActuelle   //positionActuelle = cible;
-                    MouvementRestant--;   //JeuXML.Niveau._Pecheur.MouvementRestant--; //mouvementsRestants--;
+                 
+                    MouvementRestant--;   
                 }
             }
         }
@@ -77,7 +83,7 @@ public class JeuXML
     public class unPoisson
     {
         [XmlElement("nom")] public String Nom;
-        //[XmlElement("texturePoisson")] public String textPoisson;
+
         [XmlElement("position")] public uneTuile Position;
         [XmlElement("estVisible")] public bool EstVisible; 
         
@@ -87,34 +93,40 @@ public class JeuXML
         
         
         [XmlElement("mouvementMax")] public int mouvementMax;
-        [XmlElement("joueur")] public JoueurPecheur _Pecheur;    //rajout static pour y avoir acces dans update
-        [XmlElement("poisson")] public unPoisson _Poisson;       //rajout static pour y avoir acces dans update
+        [XmlElement("joueur")] public JoueurPecheur _Pecheur;    
+        [XmlElement("poisson")] public unPoisson _Poisson;
         [XmlElement("caseSortie")] public uneTuile CaseSortie;
-        //[XmlElement("textPecheur")] public String textPecheur;
-        //[XmlElement("textPecheur")] public String textPoisson;
         [XmlElement("collones")] public int Collones;
         [XmlElement("lignes")] public int Lignes;
         
-        //A ignorer 
+        
         [XmlIgnore] public Texture2D _texturePecheur ;
         [XmlIgnore] public Texture2D _texturePoisson ;
         [XmlIgnore] public Texture2D _textureCarte ;
         [XmlIgnore] public Tuile[,] grille;
-
+        
+        /**
+        * Verifie interaction entre pecheur et poisson ( ramassage du poisson )
+        */
         public void Updating()
         {
-            if (_Poisson.EstVisible && (_Pecheur.PositionActuelle.Coordonnes._PosX == _Poisson.Position.Coordonnes._PosX) && (_Pecheur.PositionActuelle.Coordonnes._PosY == _Poisson.Position.Coordonnes._PosY))    //if (poisson.estVisible && poisson.position == joueur.positionActuelle)
+            if (_Poisson.EstVisible && (_Pecheur.PositionActuelle.Coordonnes._PosX == _Poisson.Position.Coordonnes._PosX) && (_Pecheur.PositionActuelle.Coordonnes._PosY == _Poisson.Position.Coordonnes._PosY))
             {
-                _Poisson.EstVisible = false;      //poisson.estVisible = false;
-                _Pecheur.aPoisson = true;          //joueur.aPoisson = true;
+                _Poisson.EstVisible = false;     
+                _Pecheur.aPoisson = true;          
             }
         }
-
+        /**
+         * Construction du niveau
+         * definition des collisions
+         * création grille (8x8 -- 64 tuile)
+         * chargement position du pecheur et poisson par le parseur
+         */
         public void InitialiserNiveau()
         {
             bool[,] arbreCollision = new bool[Collones, Lignes];
 
-            // definition case collision
+   
             arbreCollision[0, 0] = true;
             arbreCollision[1, 0] = true;
             arbreCollision[2, 0] = true;
@@ -130,7 +142,7 @@ public class JeuXML
             arbreCollision[2, 1] = true;
 
             // création grille de 0 a 63 car 8X8
-            grille = new Tuile[Collones, Lignes]; //remettre new Tuile si ca marche pas 
+            grille = new Tuile[Collones, Lignes];
 
             for (int x = 0; x < Lignes; x++)
             {
@@ -139,34 +151,30 @@ public class JeuXML
                     int tileIndex = (y * Lignes) + x;
                     bool estBloquant = arbreCollision[x, y];
 
-                    grille[x, y] = new Tuile(new Point(x,y), estBloquant, _textureCarte, tileIndex); //remettre Tuile simarche pas
+                    grille[x, y] = new Tuile(new Point(x,y), estBloquant, _textureCarte, tileIndex);
                 }
             }
             
-            //Parser pour la position du joueur3
-            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[0], ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[1]];
-            //joueur = new Pecheur("Joueur", posJoueur, ParserJeux.ParserNbPas("./xml/niveau1.xml"), _texPecheur);
 
-            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/niveau1.xml")[0], ParserJeux.ParserPositionPoisson("./xml/niveau1.xml")[1]];
-            //poisson = new Poisson("Saumon", posPoisson, _texPoisson);
+            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[1]];
+            
 
-            //CaseSortie = grille[ParserJeux.ParserPositionFin("./xml/niveau1.xml")[0], ParserJeux.ParserPositionFin("./xml/niveau1.xml")[1]];
+            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[1]];
+
+
         }
         
     }
 
     public class uneTuile
     {
+        
         public class unPoint{
             [XmlAttribute("posX")] public int _PosX { set; get; }
             [XmlAttribute("posY")] public int _PosY { set; get; }
             
-            /*
-            public unPoint(int posX, int posY)
-            {
-                _PosX = posX;
-                _PosY = posY;
-            }*/
+public unPoint(){}
+            
             
         }
         
@@ -177,42 +185,9 @@ public class JeuXML
         [XmlElement("constHauteur")] public int _ConstHauteur { set; get; }
 
         [XmlIgnore] public Texture2D _texture;
-        /*
-        public uneTuile(unPoint pos,bool estBloquant, int constLargeur, int constHauteur )
-        {
-            Coordonnes = pos;
-            _EstBloquant = estBloquant;
-            _ConstLargeur = constLargeur;
-            _ConstHauteur = constHauteur;
         
-        
-        
-        public uneTuile(Point pos,bool estBloquant, Texture2D texture, int tileIndex )
-        {
-            Coordonnes._PosX = pos.X;
-            Coordonnes._PosY = pos.X;
-            _EstBloquant = estBloquant;
-            _texture = texture;
-
-            // découpe l'image c'est un 8x8 
-            int nbColonneImageForet = texture.Width / _ConstLargeur;
-
-            // recupération pos colonne par le decoupage
-            int texX = (tileIndex % nbColonneImageForet) * _ConstLargeur;
-
-            // recup pos ligne par le découpage
-            int texY = (tileIndex / nbColonneImageForet) * _ConstHauteur;
-
-            _sourceRect = new Rectangle(texX, texY, _ConstLargeur, _ConstHauteur);
-        }
-        
-        
-        public uneTuile(unPoint pos)
-        {
-            Coordonnes = pos;
-        }}*/
     }
-
+      // Mon enumération pour l'état du jeu
     public enum EtatJeu 
     {
         [XmlEnum("Playing")] JOUE,
@@ -220,6 +195,7 @@ public class JeuXML
         [XmlEnum("GameWon")] GAGNER
     }
     
+    // Getter pour récupérer l'état du jeu 
     public static EtatJeu getEtatJeu(String valeur)
     {
         switch(valeur)
@@ -231,10 +207,15 @@ public class JeuXML
         return EtatJeu.JOUE;
     }
     
-    
+    /**
+     * Initialise une nouvelle partie ou redemarre une partie existante.
+     * tCarte texture de la carte
+     * tPech texture pecheur
+     * tPech texture poisson
+     */
     public void Démarrage(Texture2D tCarte, Texture2D tPech, Texture2D tPois)
     {
-        MonNiveau._texturePecheur = tPech; //il recupère deja grace a la deserialisation
+        MonNiveau._texturePecheur = tPech;
         MonNiveau._texturePoisson = tPois;
         MonNiveau._textureCarte = tCarte;
         
@@ -251,7 +232,9 @@ public class JeuXML
     }
     
 
-
+    /**
+     *    Met a jour l'etat du jeu + verifie condition de victoire / defaite
+     */
     public void Update()
     {
         if (Etat != EtatJeu.JOUE) return;
@@ -268,25 +251,6 @@ public class JeuXML
             Etat = EtatJeu.GAGNER;
         }
     }
-        
-
-        
-    
-    
-    
-    
-    /*
-    public override string ToString() {
-        String s = String.Empty;
-        s += "Je suis un pecheur est mon nom est : " + MonNiveau.Pecheur.Nom;
-        s += "\n Il me reste : " + MonNiveau.Pecheur.MouvementRestant + "restant.";
-        s += "\n J'ai le poisson : " + MonNiveau.Pecheur.aPoisson;
-        s += "\n J'ai mon outil : " + MonNiveau.Pecheur.aOutil;
-        s += "\n Ma Position actuelle en X est : " + MonNiveau.Pecheur.PositionActuelle.Coordonnes._PosX;
-        s += "\n Ma Position actuelle en Y est : " + MonNiveau.Pecheur.PositionActuelle.Coordonnes._PosY;
-        return s;
-    }
-    */
-    
+   
 }
 

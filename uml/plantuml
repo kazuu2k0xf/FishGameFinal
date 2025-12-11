@@ -47,6 +47,20 @@
         +int coûtMouvement = 1
     }
     
+    class TuilePiege {
+        uneTuile tuile
+        int degatMouvement
+        bool estVisible
+        bool estDeclenche
+    
+    }
+    
+    class Ennemi {
+    string nom
+    uneTuile position
+    }
+    
+    
     Jeu "1" *-- "1" Niveau : contient
     Niveau "1" *-- "1" Pêcheur : a
     Niveau "1" *-- "1" Poisson : contient
@@ -56,6 +70,7 @@
     Pêcheur<|--  PêcheurCanne
     Pêcheur<|--  PêcheurCuillère
     Pêcheur<|-- PêcheurFilet
+    Tuile<|-- TuilePiege
     
     Pêcheur "1" *-- "1" Tuile : est sur
     Poisson "1" *-- "1" Tuile : est sur

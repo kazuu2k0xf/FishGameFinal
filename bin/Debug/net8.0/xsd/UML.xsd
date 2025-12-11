@@ -97,13 +97,14 @@
             <pattern value="[0-7]{1}"/>
         </restriction>
     </simpleType>
-
+    <!--- Class Colisi -->
     <complexType name="Collision">
         <sequence>
             <element name="ligne" type="jeu:Ligne" minOccurs="8" maxOccurs="8"> </element>
         </sequence>
     </complexType>
-
+    
+    <!--- Type Ligne -->
     <simpleType name="Ligne">
         <restriction base="string">
             <pattern value="[C ]{8}"/>

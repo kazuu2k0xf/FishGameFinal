@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace FishGame
 {
+
     public class Tuile
     {
         public Point coordonnees; 
@@ -20,13 +21,10 @@ namespace FishGame
             this.estBloquant = bloquant;
             this._texture = texture;
 
-            // découpe l'image c'est un 8x8 
             int nbColonneImageForet = texture.Width / Largeur;
 
-            // recupération pos colonne par le decoupage
             int texX = (tileIndex % nbColonneImageForet) * Largeur;
 
-            // recup pos ligne par le découpage
             int texY = (tileIndex / nbColonneImageForet) * Hauteur;
 
             this._sourceRect = new Rectangle(texX, texY, Largeur, Hauteur);

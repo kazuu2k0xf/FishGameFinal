@@ -21,12 +21,16 @@ namespace FishGame
             _texPecheur = pecheur;
             _texPoisson = poissonTexture;
         }
-
+        /**
+        * Construction du niveau
+        * definition des collisions
+        * création grille (8x8 -- 64 tuile)
+        * chargement position du pecheur et poisson par le parseur
+        */
         public void InitialiserNiveau()
         {
             bool[,] arbreCollision = new bool[Columns, Rows];
 
-            // definition case collision
             arbreCollision[0, 0] = true;
             arbreCollision[1, 0] = true;
             arbreCollision[2, 0] = true;
@@ -41,7 +45,6 @@ namespace FishGame
             arbreCollision[1, 1] = true;
             arbreCollision[2, 1] = true;
 
-            // création grille de 0 a 63 car 8X8
             grille = new Tuile[Columns, Rows];
 
             for (int x = 0; x < Columns; x++)
@@ -55,7 +58,6 @@ namespace FishGame
                 }
             }
             
-            //Parser pour la position du joueur3
             Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[0], ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[1]];
             joueur = new Pecheur("Joueur", posJoueur, ParserJeux.ParserNbPas("./xml/niveau1.xml"), _texPecheur);
 
@@ -64,7 +66,9 @@ namespace FishGame
 
             caseSortie = grille[ParserJeux.ParserPositionFin("./xml/niveau1.xml")[0], ParserJeux.ParserPositionFin("./xml/niveau1.xml")[1]];
         }
-
+        /**
+         * Verifie interaction entre pecheur et poisson ( ramassage du poisson )
+         */
         public void Update()
         {
             if (poisson.estVisible && poisson.position == joueur.positionActuelle)

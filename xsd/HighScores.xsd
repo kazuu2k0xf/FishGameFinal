@@ -15,13 +15,14 @@
         </sequence>
     </complexType>
 
+    <!-- Class listepseudos -->
     <complexType name="Listepseudos">
         <sequence>
             <element name ="pseudo" type ="hs:Pseudo" maxOccurs="unbounded"></element>
         </sequence>
     </complexType>
 
-    <!-- Class Pseudos-->
+    <!-- Class Pseudo-->
     <complexType name="Pseudo">
         <sequence>
             <element name ="nom" type ="string"></element>

@@ -14,7 +14,6 @@ namespace FishGame
         private SpriteBatch _spriteBatch;
 
         private JeuXML JeuDeserializer;
-        //private Jeu _jeu;
         private KeyboardState _previousKeyboardState;
 
         private Texture2D _texPecheur, _texCarte, _texPoisson;
@@ -37,7 +36,6 @@ namespace FishGame
             
             deserializer_JEU = new XMLManager<JeuXML>();
             JeuDeserializer = deserializer_JEU.Load("./xml/UMLFin.xml");
-            //JeuDeserializer.MonNiveau.InitialiserNiveau();
             if (JeuDeserializer == null)
             {
                 throw new Exception("JeuDeserializer est null");
@@ -52,7 +50,7 @@ namespace FishGame
 
         protected override void Initialize()
         {
-            //_jeu = new Jeu();
+
             _previousKeyboardState = Keyboard.GetState();
             base.Initialize();
         }
@@ -64,10 +62,7 @@ namespace FishGame
             _texPecheur = Content.Load<Texture2D>("pecheur");
             _texCarte = Content.Load<Texture2D>("carte");
             _texPoisson = Content.Load<Texture2D>("poisson");
-            
-            //JeuDeserializer.MonNiveau._texturePecheur = Content.Load<Texture2D>("pecheur");
-            //JeuDeserializer.MonNiveau._textureCarte = Content.Load<Texture2D>("carte");
-            //JeuDeserializer.MonNiveau._texturePoisson = Content.Load<Texture2D>("poisson");
+
 
             JeuDeserializer.Démarrage(_texCarte, _texPecheur, _texPoisson);
         }
@@ -80,13 +75,13 @@ namespace FishGame
                 currentKb.IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (JeuDeserializer.Etat == JeuXML.EtatJeu.JOUE)   //if (_jeu.Etat == EtatDuJeux.Playing)
+            if (JeuDeserializer.Etat == JeuXML.EtatJeu.JOUE) 
             {
-                JeuDeserializer.MonNiveau._Pecheur.GererMonEntree(currentKb, _previousKeyboardState, JeuDeserializer.MonNiveau);    //_jeu.niveauCourant.joueur.GererEntree(currentKb, _previousKeyboardState, _jeu.niveauCourant);
+                JeuDeserializer.MonNiveau._Pecheur.GererMonEntree(currentKb, _previousKeyboardState, JeuDeserializer.MonNiveau); 
             }
 
             if ((JeuDeserializer.Etat== JeuXML.EtatJeu.PERDU || JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER ) &&       
-                (currentKb.IsKeyDown(Keys.Enter) && (_previousKeyboardState.IsKeyUp(Keys.Enter))))     // if ((_jeu.Etat == EtatDuJeux.GameOver || _jeu.Etat == EtatDuJeux.GameWon) && currentKb.IsKeyDown(Keys.Enter) && _previousKeyboardState.IsKeyUp(Keys.Enter))
+                (currentKb.IsKeyDown(Keys.Enter) && (_previousKeyboardState.IsKeyUp(Keys.Enter))))
             {
                 _scoreSauvegarde = false;
                 if (JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER && !_scoreSauvegarde)
@@ -115,36 +110,35 @@ namespace FishGame
             _spriteBatch.Begin();
             if (JeuDeserializer.MonNiveau != null)
             {
-                //JeuXML.unNiveau niv = JeuDeserializer.MonNiveau;  //Remettre Niveau
 
                 if (JeuDeserializer.MonNiveau.grille != null)
                 {
-                    foreach (Tuile t in JeuDeserializer.MonNiveau.grille) //Tuile t in niv.grillle
+                    foreach (Tuile t in JeuDeserializer.MonNiveau.grille)
                     {
-                        Vector2 pos = new Vector2(t.coordonnees.X * Tuile.Largeur, t.coordonnees.Y * Tuile.Hauteur);  //Vector2 pos = new Vector2(t.coordonnees.X * Tuile.Largeur, t.coordonnees.Y * Tuile.Hauteur);
+                        Vector2 pos = new Vector2(t.coordonnees.X * Tuile.Largeur, t.coordonnees.Y * Tuile.Hauteur);
 
-                        _spriteBatch.Draw(t._texture, pos, t._sourceRect, Color.White); //pareillle
+                        _spriteBatch.Draw(t._texture, pos, t._sourceRect, Color.White); 
                     }
                 }
 
-                if (JeuDeserializer.MonNiveau._Poisson != null && JeuDeserializer.MonNiveau._Poisson.EstVisible) //(niv.poisson != null && niv.poisson.estVisible)
+                if (JeuDeserializer.MonNiveau._Poisson != null && JeuDeserializer.MonNiveau._Poisson.EstVisible)
                 {
-                    int x = JeuDeserializer.MonNiveau._Poisson.Position.Coordonnes._PosX * Tuile.Largeur;   //int x = niv.poisson.position.coordonnees.X * Tuile.Largeur;
-                    int y = JeuDeserializer.MonNiveau._Poisson.Position.Coordonnes._PosY * Tuile.Hauteur;  //int y = niv.poisson.position.coordonnees.Y * Tuile.Hauteur;
+                    int x = JeuDeserializer.MonNiveau._Poisson.Position.Coordonnes._PosX * Tuile.Largeur;
+                    int y = JeuDeserializer.MonNiveau._Poisson.Position.Coordonnes._PosY * Tuile.Hauteur;
 
                     Rectangle destination = new Rectangle(x, y, 100, 60);
 
-                    _spriteBatch.Draw(JeuDeserializer.MonNiveau._texturePoisson, destination, Color.White);  //(niv.poisson._texture, destination, Color.White);
+                    _spriteBatch.Draw(JeuDeserializer.MonNiveau._texturePoisson, destination, Color.White);  
                 }
 
-                if (JeuDeserializer.MonNiveau._Pecheur != null)   //(niv.joueur != null)
+                if (JeuDeserializer.MonNiveau._Pecheur != null)  
                 { 
                     Vector2 pos = new Vector2(
-                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX * Tuile.Largeur,  //niv.joueur.positionActuelle.coordonnees.X * Tuile.Largeur,
-                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY * Tuile.Hauteur  //niv.joueur.positionActuelle.coordonnees.Y * Tuile.Hauteur
+                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX * Tuile.Largeur,  
+                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY * Tuile.Hauteur
                     );
                     Rectangle desti = new Rectangle(0, 0, JeuDeserializer.MonNiveau._texturePecheur.Width/7,JeuDeserializer.MonNiveau._texturePecheur.Height/4);
-                    _spriteBatch.Draw(JeuDeserializer.MonNiveau._texturePecheur, pos, desti, Color.White);  //(niv.joueur.texture, pos, niv.joueur.sourceRect, Color.White);
+                    _spriteBatch.Draw(JeuDeserializer.MonNiveau._texturePecheur, pos, desti, Color.White);
                 }
             }
 

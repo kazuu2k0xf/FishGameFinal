@@ -2,7 +2,7 @@ using System.Xml;
 
 namespace FishGame;
 /**
- * Cette classe permet de sauvegarder (ecrire) le score du joueur dans le xml sauvegardePartie.xml
+ * Classe qui permet de sauvegarder (ecrire) le score du joueur dans le xml sauvegardePartie.xml
  */
 public class HighscoreDom
 {
@@ -20,8 +20,9 @@ public class HighscoreDom
     }
 
     /**
-     * Permet d'ajouter un score au xml
-     */
+    * Méthode qui permet d'ajouter un score au xml
+    * Prend en parametre un entier
+    */
     public void AjouterScore( int nbPasUtiliser)
     {
         string filePath = "../../../xml/sauvegardePartie.xml"; 
@@ -41,13 +42,18 @@ public class HighscoreDom
         listepseudosNode.AppendChild(nvPseudo);
 
         doc.Save(filePath);
-    }
-
+    } 
+    
+    /**
+    * Methode qui permet de compter le nombre de joueurs present dans l'élément listespseudos
+    * Retourne un string Player + le nombre de joueurs
+    */
     public string nbPlayer()
     {
         XmlNode listepseudos = root.SelectSingleNode("hs:listespseudos", nsmgr);
         int nbplayer = 0;
-        foreach (XmlNode pseudos in listepseudos)
+
+        foreach (XmlNode pseudo in listepseudos)
         {
             nbplayer++;
         }

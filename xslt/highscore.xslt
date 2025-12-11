@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<xsl:stylesheet version="1.0"
+<stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:cab="http://www.l3miage.fr/HighScores">
+                xmlns:hs="http://www.l3miage.fr/HighScores">
 
-    <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+    <output method="html" encoding="UTF-8" indent="yes"/>
 
-    <xsl:template match="/">
+    <template match="/">
         <html>
             <head>
                 <link href="../css/highscore.css" rel="stylesheet"/>
@@ -19,17 +19,17 @@
                         <th>Score</th>
                     </tr>
 
-                    <xsl:apply-templates select="cab:highscore/cab:listespseudos"/>
+                    <apply-templates select="hs:highscore/hs:listespseudos"/>
                 </table>
             </body>
         </html>
-    </xsl:template>
+    </template>
 
-    <xsl:template match="cab:pseudo">
+    <template match="hs:pseudo">
         <tr>
-            <td><xsl:value-of select="cab:nom"/></td>
-            <td><xsl:value-of select="cab:nbpas"/></td>
+            <td><value-of select="hs:nom"/></td>
+            <td><value-of select="hs:nbpas"/></td>
         </tr>
-    </xsl:template>
+    </template>
 
-</xsl:stylesheet>
+</stylesheet>
