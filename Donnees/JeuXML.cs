@@ -108,7 +108,7 @@ public class JeuXML
         /**
         * Verifie interaction entre pecheur et poisson ( ramassage du poisson )
         */
-        public void Updating()
+        public void MAJEtatPoissonEtAPoisson()
         {
             if (_Poisson.EstVisible && (_Pecheur.PositionActuelle.Coordonnes._PosX == _Poisson.Position.Coordonnes._PosX) && (_Pecheur.PositionActuelle.Coordonnes._PosY == _Poisson.Position.Coordonnes._PosY))
             {
@@ -155,12 +155,7 @@ public class JeuXML
                 }
             }
             
-
-           //Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml")[1]];
             
-
-            //Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[0], ParserJeux.ParserPositionPoisson("./xml/UMLFin.xml")[1]];
-
 
         }
         
@@ -220,10 +215,14 @@ public unPoint(){}
         MonNiveau._textureCarte = tCarte;
         
         MonNiveau.InitialiserNiveau();
-        
+
+        // Non nécéssaire car déjà récupérer avec le deserializer
         List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml"); 
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX = posDepart[0];
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY = posDepart[1];
+        //Mais on le fait pour montrer qu'ont sait utiliser un parser
+
+
         MonNiveau._Pecheur.MouvementRestant = MonNiveau.mouvementMax;   
         MonNiveau._Pecheur.aPoisson = false;
         MonNiveau._Poisson.EstVisible = true;
@@ -235,11 +234,11 @@ public unPoint(){}
     /**
      *    Met a jour l'etat du jeu + verifie condition de victoire / defaite
      */
-    public void Update()
+    public void MAJEtatJeu()
     {
         if (Etat != EtatJeu.JOUE) return;
 
-        MonNiveau.Updating();
+        MonNiveau.MAJEtatPoissonEtAPoisson();
 
         if (MonNiveau._Pecheur.MouvementRestant <= 0)
         {

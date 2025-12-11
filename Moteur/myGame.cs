@@ -97,7 +97,7 @@ namespace FishGame
             }
             
 
-            JeuDeserializer.Update();
+            JeuDeserializer.MAJEtatJeu();
             _previousKeyboardState = currentKb;
             base.Update(gameTime);
         }
@@ -134,7 +134,7 @@ namespace FishGame
                 if (JeuDeserializer.MonNiveau._Pecheur != null)  
                 { 
                     Vector2 pos = new Vector2(
-                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX * Tuile.Largeur,  
+                        JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX * Tuile.Largeur,
                         JeuDeserializer.MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY * Tuile.Hauteur
                     );
                     Rectangle desti = new Rectangle(0, 0, JeuDeserializer.MonNiveau._texturePecheur.Width/7,JeuDeserializer.MonNiveau._texturePecheur.Height/4);

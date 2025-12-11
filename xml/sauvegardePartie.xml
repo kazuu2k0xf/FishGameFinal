@@ -13,5 +13,9 @@
       <nom>Player3</nom>
       <nbpas>8</nbpas>
     </pseudo>
+    <pseudo>
+      <nom>Player4</nom>
+      <nbpas>14</nbpas>
+    </pseudo>
   </listespseudos>
 </highscore>
