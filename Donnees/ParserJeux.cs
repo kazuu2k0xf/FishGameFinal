@@ -14,7 +14,7 @@ public class ParserJeux
      * Prend en parametre le chemin du fichier xml
      * Retourne une list avec les coordonnées x et y
      */
-    static public List<int> ParserPositionJoueur(String filename)
+     public List<int> ParserPositionJoueur(String filename)
     {
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionJoueur = new List<int>();
@@ -43,7 +43,7 @@ public class ParserJeux
     * Prend en parametre le chemin du fichier xml
     * Retourne une list avec les coordonnées x et y
     */
-    static public List<int> ParserPositionPoisson(String filename)
+     public List<int> ParserPositionPoisson(String filename)
     {
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionPoisson = new List<int>();
@@ -73,7 +73,7 @@ public class ParserJeux
     * Prend en parametre le chemin du fichier xml
     * Retourne une list avec les coordonnées x et y
     */
-    static public List<int> ParserPositionFin(String filename)
+    public List<int> ParserPositionFin(String filename)
     {
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionFin = new List<int>();
@@ -103,7 +103,7 @@ public class ParserJeux
     * Retourne un entier
      * dans ce cas on lutilise pas car on désérialise deja tous le document xml
     */
-    static public int ParserNbPas(String filename)
+     public int ParserNbPas(String filename)
     {
         XmlReader reader = XmlReader.Create(filename);
         int nbPas = 0;

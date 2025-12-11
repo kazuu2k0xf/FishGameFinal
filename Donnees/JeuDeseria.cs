@@ -203,7 +203,8 @@ public class JeuDeseria
         MonNiveau.InitialiserNiveau();
 
         // Non nécéssaire car déjà récupérer avec le deserializer
-        List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml"); 
+        ParserJeux parserJeux = new ParserJeux();
+        List<int> posDepart = parserJeux.ParserPositionJoueur("./xml/Fishgame.xml"); 
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX = posDepart[0];
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY = posDepart[1];
         //Mais on le fait pour montrer qu'ont sait utiliser un parser

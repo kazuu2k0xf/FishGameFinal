@@ -57,14 +57,15 @@ namespace FishGame
                     grille[x, y] = new Tuile(new Point(x,y), estBloquant, _texCarte, tileIndex);
                 }
             }
-            
-            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[1]];
-            joueur = new Pecheur("Joueur", posJoueur, ParserJeux.ParserNbPas("./xml/Fishgame.xml"), _texPecheur);
 
-            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[1]];
+            ParserJeux parserJeux = new ParserJeux();
+            Tuile posJoueur = grille[parserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[0], parserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[1]];
+            joueur = new Pecheur("Joueur", posJoueur, parserJeux.ParserNbPas("./xml/Fishgame.xml"), _texPecheur);
+
+            Tuile posPoisson = grille[parserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[0], parserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[1]];
             poisson = new Poisson("Saumon", posPoisson, _texPoisson);
 
-            caseSortie = grille[ParserJeux.ParserPositionFin("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionFin("./xml/Fishgame.xml")[1]];
+            caseSortie = grille[parserJeux.ParserPositionFin("./xml/Fishgame.xml")[0], parserJeux.ParserPositionFin("./xml/Fishgame.xml")[1]];
         }
         /**
          * Verifie interaction entre pecheur et poisson ( ramassage du poisson )
