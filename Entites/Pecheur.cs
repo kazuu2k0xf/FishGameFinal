@@ -34,6 +34,7 @@ namespace FishGame
 
             sourceRect = new Rectangle(0, 0, _frameWidth, _frameHeight);
         }
+        
         /**
         * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
         * decremente le compteur de pas pour chaque déplacement
@@ -57,6 +58,7 @@ namespace FishGame
                 }
             }
         }
+        
         /**
         * sert a la direction du pecheur ( conversion touche vers vecteur direction )
         */

@@ -116,14 +116,14 @@ C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/FishGame.sourcelink.jso
 C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/FishGame.csproj.Up2Date
 C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
 C:/Users/laf06/RiderProjects/JeuPoisson/obj/Debug/net8.0/ref/FishGame.dll
-C:/Users/laf06/RiderProjects/JeuPoisson/bin/Debug/net8.0/niveau1.xml
-/home/k/kernoub/Téléchargements/FishGame/bin/Debug/net8.0/niveau1.xml
+C:/Users/laf06/RiderProjects/JeuPoisson/bin/Debug/net8.0/Fishgame.xml
+/home/k/kernoub/Téléchargements/FishGame/bin/Debug/net8.0/Fishgame.xml
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/aaa.xnb
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/Mur.xnb
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/wood.xnb
-C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/niveau1.xml
+C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Fishgame.xml
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
 C:/Users/badou/Downloads/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
@@ -193,12 +193,12 @@ C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.
 C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.csproj.Up2Date
 C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
 C:/Users/hugom/RiderProjects/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
-C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
+C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/xml/Fishgame.xml
 C:/Users/hugom/RiderProjects/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
-C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
+C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xml/Fishgame.xml
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/FishGame.runtimeconfig.json
@@ -233,14 +233,12 @@ C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debu
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/FishGame.genruntimeconfig.cache
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xsd/UML.xsd
-C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/xml/UMLFin.xml
 C:/Users/salah/Desktop/L3 MIAGE/XML/JeuPoisson-master/JeuPoisson-master/bin/Debug/net8.0/Content/carte.xnb
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/carte.xnb
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/pecheur.xnb
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/Content/poisson.xnb
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.exe
-C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xml/niveau1.xml
-C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xml/UMLFin.xml
+C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xml/Fishgame.xml
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xsd/JeuPoisson.xsd
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/xsd/UML.xsd
 C:/Users/badou/Documents/JeuPoisson-master/bin/Debug/net8.0/FishGame.deps.json
@@ -279,8 +277,7 @@ C:/Users/badou/Documents/JeuPoisson-master/obj/Debug/net8.0/ref/FishGame.dll
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/Content/pecheur.xnb
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/Content/poisson.xnb
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame
-/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xml/niveau1.xml
-/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xml/UMLFin.xml
+/home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xml/Fishgame.xml
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xsd/JeuPoisson.xsd
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/xsd/UML.xsd
 /home/m/mehannil/RiderProjects/FishGameFinal/bin/Debug/net8.0/FishGame.deps.json
@@ -320,10 +317,8 @@ C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\Content\carte.xnb
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\Content\pecheur.xnb
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\Content\poisson.xnb
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\FishGame.exe
-C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\xml\niveau1.xml
-C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\xml\UMLFin.xml
+C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\xml\Fishgame.xml
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\xsd\JeuPoisson.xsd
-C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\xsd\UML.xsd
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\FishGame.deps.json
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\FishGame.runtimeconfig.json
 C:\Users\hugom\RiderProjects\FishGameFinal\bin\Debug\net8.0\FishGame.dll

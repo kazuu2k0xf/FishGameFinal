@@ -13,19 +13,13 @@
     <ItemGroup>
         <None Remove="Icon.ico"/>
         <None Remove="Icon.bmp"/>
-        <None Update="Content\xml\niveau1.xml">
+        <None Update="Content\xml\Fishgame.xml">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Update="xml\niveau1.xml">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Update="xsd\JeuPoisson.xsd">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="xsd\UML.xsd">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
-        <None Update="xml\UMLFin.xml">
+        <None Update="xml\Fishgame.xml">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>

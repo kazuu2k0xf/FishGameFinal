@@ -5,16 +5,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 
-
-
-
 namespace FishGame;
 
-
-
 [Serializable]
-[XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonCordaUML")] 
-public class JeuXML
+[XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonEnAccordUML")] 
+public class JeuDeseria
 {
     [XmlElement("niveauCourant")] public unNiveau MonNiveau;   //rajout static pour y avoir acces dans update
     [XmlElement("etatJeu")] public EtatJeu Etat;
@@ -28,8 +23,6 @@ public class JeuXML
         [XmlElement("aPoisson")] public bool aPoisson;
         [XmlElement("aOutil")] public bool aOutil;
         
-       
-      
         
         /**
         * sert a la direction du pecheur ( conversion touche vers vecteur direction )
@@ -50,9 +43,8 @@ public class JeuXML
             }
         }
         
-        
         /**
-        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas 
+        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
         * decremente le compteur de pas pour chaque déplacement
         */
         public void seDéplacer(int x, int y, unNiveau niveau)
@@ -88,9 +80,9 @@ public class JeuXML
         [XmlElement("estVisible")] public bool EstVisible; 
         
     }
+    
     public class unNiveau
     {
-        
         
         [XmlElement("mouvementMax")] public int mouvementMax;
         [XmlElement("joueur")] public JoueurPecheur _Pecheur;    
@@ -98,7 +90,6 @@ public class JeuXML
         [XmlElement("caseSortie")] public uneTuile CaseSortie;
         [XmlElement("collones")] public int Collones;
         [XmlElement("lignes")] public int Lignes;
-        
         
         [XmlIgnore] public Texture2D _texturePecheur ;
         [XmlIgnore] public Texture2D _texturePoisson ;
@@ -154,11 +145,7 @@ public class JeuXML
                     grille[x, y] = new Tuile(new Point(x,y), estBloquant, _textureCarte, tileIndex);
                 }
             }
-            
-            
-
         }
-        
     }
 
     public class uneTuile
@@ -168,8 +155,7 @@ public class JeuXML
             [XmlAttribute("posX")] public int _PosX { set; get; }
             [XmlAttribute("posY")] public int _PosY { set; get; }
             
-public unPoint(){}
-            
+            public unPoint(){}
             
         }
         
@@ -182,7 +168,7 @@ public unPoint(){}
         [XmlIgnore] public Texture2D _texture;
         
     }
-      // Mon enumération pour l'état du jeu
+    // Mon enumération pour l'état du jeu
     public enum EtatJeu 
     {
         [XmlEnum("Playing")] JOUE,
@@ -217,7 +203,7 @@ public unPoint(){}
         MonNiveau.InitialiserNiveau();
 
         // Non nécéssaire car déjà récupérer avec le deserializer
-        List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/UMLFin.xml"); 
+        List<int> posDepart = ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml"); 
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosX = posDepart[0];
         MonNiveau._Pecheur.PositionActuelle.Coordonnes._PosY = posDepart[1];
         //Mais on le fait pour montrer qu'ont sait utiliser un parser
@@ -250,6 +236,4 @@ public unPoint(){}
             Etat = EtatJeu.GAGNER;
         }
     }
-   
 }
-

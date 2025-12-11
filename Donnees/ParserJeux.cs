@@ -47,7 +47,6 @@ public class ParserJeux
     {
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionPoisson = new List<int>();
-        int x = 0;
 
         while (reader.Read())
         {
@@ -78,9 +77,7 @@ public class ParserJeux
     {
         XmlReader reader = XmlReader.Create(filename);
         List<int> positionFin = new List<int>();
-
-        int x = 0;
-
+        
         while (reader.Read())
         {
             switch (reader.NodeType)

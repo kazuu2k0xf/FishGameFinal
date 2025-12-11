@@ -58,13 +58,13 @@ namespace FishGame
                 }
             }
             
-            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[0], ParserJeux.ParserPositionJoueur("./xml/niveau1.xml")[1]];
-            joueur = new Pecheur("Joueur", posJoueur, ParserJeux.ParserNbPas("./xml/niveau1.xml"), _texPecheur);
+            Tuile posJoueur = grille[ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionJoueur("./xml/Fishgame.xml")[1]];
+            joueur = new Pecheur("Joueur", posJoueur, ParserJeux.ParserNbPas("./xml/Fishgame.xml"), _texPecheur);
 
-            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/niveau1.xml")[0], ParserJeux.ParserPositionPoisson("./xml/niveau1.xml")[1]];
+            Tuile posPoisson = grille[ParserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionPoisson("./xml/Fishgame.xml")[1]];
             poisson = new Poisson("Saumon", posPoisson, _texPoisson);
 
-            caseSortie = grille[ParserJeux.ParserPositionFin("./xml/niveau1.xml")[0], ParserJeux.ParserPositionFin("./xml/niveau1.xml")[1]];
+            caseSortie = grille[ParserJeux.ParserPositionFin("./xml/Fishgame.xml")[0], ParserJeux.ParserPositionFin("./xml/Fishgame.xml")[1]];
         }
         /**
          * Verifie interaction entre pecheur et poisson ( ramassage du poisson )

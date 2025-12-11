@@ -1,6 +1,6 @@
 using System;
 using Microsoft.Xna.Framework;
-using static FishGame.JeuXML; 
+using static FishGame.JeuDeseria; 
 
 namespace FishGame
 {
@@ -11,8 +11,7 @@ namespace FishGame
         public int DegatsMouvement { get; set; }
         public bool EstVisible { get; set; }
         public bool EstDeclenche { get; set; }
-
-
+        
         public TuilePiege(string nom, uneTuile position, int degats)
         {
             Nom = nom;

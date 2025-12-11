@@ -8,12 +8,12 @@ namespace FishGame
 {
     public class myGame : Game
     {
-        private XMLManager<JeuXML>  deserializer_JEU; 
+        private XMLManager<JeuDeseria>  deserializer_JEU; 
         
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        private JeuXML JeuDeserializer;
+        private JeuDeseria JeuDeserializer;
         private KeyboardState _previousKeyboardState;
 
         private Texture2D _texPecheur, _texCarte, _texPoisson;
@@ -34,8 +34,8 @@ namespace FishGame
             _graphics.ApplyChanges();
             
             
-            deserializer_JEU = new XMLManager<JeuXML>();
-            JeuDeserializer = deserializer_JEU.Load("./xml/UMLFin.xml");
+            deserializer_JEU = new XMLManager<JeuDeseria>();
+            JeuDeserializer = deserializer_JEU.Load("./xml/Fishgame.xml");
             if (JeuDeserializer == null)
             {
                 throw new Exception("JeuDeserializer est null");
@@ -75,16 +75,16 @@ namespace FishGame
                 currentKb.IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (JeuDeserializer.Etat == JeuXML.EtatJeu.JOUE) 
+            if (JeuDeserializer.Etat == JeuDeseria.EtatJeu.JOUE) 
             {
                 JeuDeserializer.MonNiveau._Pecheur.GererMonEntree(currentKb, _previousKeyboardState, JeuDeserializer.MonNiveau); 
             }
 
-            if ((JeuDeserializer.Etat== JeuXML.EtatJeu.PERDU || JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER ) &&       
+            if ((JeuDeserializer.Etat== JeuDeseria.EtatJeu.PERDU || JeuDeserializer.Etat == JeuDeseria.EtatJeu.GAGNER ) &&       
                 (currentKb.IsKeyDown(Keys.Enter) && (_previousKeyboardState.IsKeyUp(Keys.Enter))))
             {
                 _scoreSauvegarde = false;
-                if (JeuDeserializer.Etat == JeuXML.EtatJeu.GAGNER && !_scoreSauvegarde)
+                if (JeuDeserializer.Etat == JeuDeseria.EtatJeu.GAGNER && !_scoreSauvegarde)
                 {
            
                 

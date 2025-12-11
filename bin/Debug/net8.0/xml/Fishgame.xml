@@ -3,7 +3,7 @@
     <etatJeu>Playing</etatJeu>
   <niveauCourant>
 
-    <!--- mouvementMax sert pas pour l'instant mais servira plus tard
+    <!--- mouvementMax ne sert pas pour l'instant, mais servira plus tard
           pour établir différents niveaux de difficultés  -->
 
     <mouvementMax>30</mouvementMax>
