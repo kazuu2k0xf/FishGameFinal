@@ -1,13 +1,13 @@
 <jeu xmlns="http://www.l3miage.fr/JeuPoissonEnAccordUML">
-    
-    <etatJeu>Playing</etatJeu>
+
+  <etatJeu>Playing</etatJeu>
   <niveauCourant>
 
     <!--- mouvementMax ne sert pas pour l'instant, mais servira plus tard
           pour établir différents niveaux de difficultés  -->
 
     <mouvementMax>30</mouvementMax>
-      
+
     <joueur>
       <nom>PecheurAtayon</nom>
       <mouvementRestant>30</mouvementRestant>
@@ -20,10 +20,10 @@
       <aPoisson>false</aPoisson>
       <aOutil>false</aOutil>
     </joueur>
-      
+
     <poisson>
       <nom>string</nom>
-     
+
       <position>
         <coordonnees posX="7" posY="2"/>
         <estBloquant>false</estBloquant>
@@ -32,16 +32,16 @@
       </position>
       <estVisible>true</estVisible>
     </poisson>
-      
+
     <caseSortie>
       <coordonnees posX="7" posY="6"/>
       <estBloquant>false</estBloquant>
       <constLargeur>225</constLargeur>
       <constHauteur>130</constHauteur>
     </caseSortie>
-      
+
     <collones>8</collones>
     <lignes>8</lignes>
-      
+
   </niveauCourant>
 </jeu>

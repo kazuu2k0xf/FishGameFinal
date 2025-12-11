@@ -88,7 +88,7 @@ namespace FishGame
                 {
            
                 
-                    HighscoreDom highscoreDom = new HighscoreDom("../../../xml/sauvegardePartie.xml");
+                    HighscoreDom highscoreDom = new HighscoreDom("../../../xml/SauvegardePartie.xml");
                 
                     highscoreDom.AjouterScore( 30 - JeuDeserializer.MonNiveau._Pecheur.MouvementRestant);
                     _scoreSauvegarde = true;

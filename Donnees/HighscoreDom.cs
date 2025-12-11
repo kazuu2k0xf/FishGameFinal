@@ -2,7 +2,7 @@ using System.Xml;
 
 namespace FishGame;
 /**
- * Classe qui permet de sauvegarder (ecrire) le score du joueur dans le xml sauvegardePartie.xml
+ * Classe qui permet de sauvegarder (ecrire) le score du joueur dans le xml SauvegardePartie.xml
  */
 public class HighscoreDom
 {
@@ -25,7 +25,7 @@ public class HighscoreDom
     */
     public void AjouterScore( int nbPasUtiliser)
     {
-        string filePath = "../../../xml/sauvegardePartie.xml"; 
+        string filePath = "../../../xml/SauvegardePartie.xml"; 
         
         XmlElement nvPseudo = doc.CreateElement(root.Prefix, "pseudo", root.NamespaceURI);
 
