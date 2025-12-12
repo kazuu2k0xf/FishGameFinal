@@ -9,10 +9,10 @@
     <mouvementMax>30</mouvementMax>
 
     <joueur>
-      <nom>PecheurAtayon</nom>
+      <nom>Player</nom>
       <mouvementRestant>30</mouvementRestant>
       <positionActuelle>
-        <coordonnees posX="3" posY="2"/>
+        <coordonnees posX="1" posY="2"/>
         <estBloquant>false</estBloquant>
         <constLargeur>225</constLargeur>
         <constHauteur>130</constHauteur>

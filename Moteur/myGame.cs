@@ -27,9 +27,9 @@ namespace FishGame
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
 
-            _graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
-            _graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
-            _graphics.IsFullScreen = true;
+            _graphics.PreferredBackBufferWidth = 1800;
+            _graphics.PreferredBackBufferHeight = 1042;
+            _graphics.IsFullScreen = false;
             _graphics.ApplyChanges();
             
             

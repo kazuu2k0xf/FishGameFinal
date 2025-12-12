@@ -124,14 +124,20 @@ public class JeuDeseria
             arbreCollision[2, 0] = true;
             arbreCollision[3, 0] = true;
             arbreCollision[0, 1] = true;
-            arbreCollision[0, 2] = true;
-            arbreCollision[0, 6] = true;
-            arbreCollision[1, 7] = true;
             arbreCollision[0, 7] = true;
             arbreCollision[6, 0] = true;
             arbreCollision[7, 0] = true;
             arbreCollision[1, 1] = true;
             arbreCollision[2, 1] = true;
+            arbreCollision[2, 1] = true;
+            arbreCollision[3, 1] = true;
+            arbreCollision[1, 3] = true;
+            arbreCollision[2, 5] = true;
+            arbreCollision[3, 5] = true;
+            arbreCollision[3, 4] = true;
+            arbreCollision[2, 6] = true;
+            arbreCollision[3, 6] = true;
+            arbreCollision[2, 5] = true;
 
             // création grille de 0 a 63 car 8X8
             grille = new Tuile[Collones, Lignes];

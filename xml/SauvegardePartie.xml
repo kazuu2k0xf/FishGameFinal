@@ -5,5 +5,9 @@
       <nom>Player1</nom>
       <nbpas>9</nbpas>
     </pseudo>
+    <pseudo>
+      <nom>Player2</nom>
+      <nbpas>20</nbpas>
+    </pseudo>
   </listespseudos>
 </highscore>
