@@ -43,13 +43,9 @@ namespace FishGame
             arbreCollision[2, 1] = true;
             arbreCollision[2, 1] = true;
             arbreCollision[3, 1] = true;
-            arbreCollision[1, 3] = true;
-            arbreCollision[2, 5] = true;
             arbreCollision[3, 5] = true;
             arbreCollision[3, 4] = true;
-            arbreCollision[2, 6] = true;
             arbreCollision[3, 6] = true;
-            arbreCollision[2, 5] = true;
 
             grille = new Tuile[Columns, Rows];
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/hugom/RiderProjects/FishGameFinal/Content/carte.png</SourceFile>
-  <SourceTime>2025-12-12T11:08:09.9208403+01:00</SourceTime>
+  <SourceTime>2025-12-11T20:42:54.9586971+01:00</SourceTime>
   <DestFile>C:/Users/hugom/RiderProjects/FishGameFinal/Content/bin/DesktopGL/Content/carte.xnb</DestFile>
-  <DestTime>2025-12-12T11:09:47.4188742+01:00</DestTime>
+  <DestTime>2025-12-12T16:39:17.8185356+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T12:31:02+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
