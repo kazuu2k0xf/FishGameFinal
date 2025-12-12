@@ -36,7 +36,7 @@ namespace FishGame
         }
         
         /**
-        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
+        * Deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
         * decremente le compteur de pas pour chaque déplacement
         */
         public void Déplacer(int x, int y, Niveau niveau)
@@ -60,7 +60,7 @@ namespace FishGame
         }
         
         /**
-        * sert a la direction du pecheur ( conversion touche vers vecteur direction )
+        * Sert a la direction du pecheur ( conversion touche vers vecteur direction )
         */
         public void GererEntree(KeyboardState currentKb, KeyboardState previousKb, Niveau niveau)
         {

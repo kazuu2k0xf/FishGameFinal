@@ -11,7 +11,7 @@ namespace FishGame;
 [XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonEnAccordUML")] 
 public class JeuDeseria
 {
-    [XmlElement("niveauCourant")] public unNiveau MonNiveau;   //rajout static pour y avoir acces dans update
+    [XmlElement("niveauCourant")] public unNiveau MonNiveau;
     [XmlElement("etatJeu")] public EtatJeu Etat;
     public class JoueurPecheur
     {
@@ -19,13 +19,13 @@ public class JeuDeseria
         [XmlElement("coordonnees")] public int coordonnees;
    
         [XmlElement("mouvementRestant")] public int MouvementRestant;
-        [XmlElement("positionActuelle")] public uneTuile PositionActuelle;  //rajout static  pour deplacer
+        [XmlElement("positionActuelle")] public uneTuile PositionActuelle;
         [XmlElement("aPoisson")] public bool aPoisson;
         [XmlElement("aOutil")] public bool aOutil;
         
         
         /**
-        * sert a la direction du pecheur ( conversion touche vers vecteur direction )
+        * Sert a la direction du pecheur ( conversion touche vers vecteur direction )
         */
         public void GererMonEntree(KeyboardState currentKb, KeyboardState previousKb, unNiveau niveau)
         {
@@ -44,7 +44,7 @@ public class JeuDeseria
         }
         
         /**
-        * deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
+        * Deplacer le pecheur vers une case avec verification de si le déplacement est valide ou pas
         * decremente le compteur de pas pour chaque déplacement
         */
         public void seDéplacer(int x, int y, unNiveau niveau)
@@ -54,7 +54,7 @@ public class JeuDeseria
             int nouveauX = PositionActuelle.Coordonnes._PosX + x;
             int nouveauY = PositionActuelle.Coordonnes._PosY + y;
 
-            //verif si le déplacement es bien dans la map 
+            //Verif si le déplacement es bien dans la map 
             // si déplacement possible, verification si case est pas bloquante
             // si possible on déplace et on décrémente le compteur de mouvement
             if (nouveauX >= 0 && nouveauX < 8 && nouveauY >= 0 && nouveauY < 8)
