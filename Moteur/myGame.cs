@@ -18,7 +18,6 @@ namespace FishGame
 
         private Texture2D _texPecheur, _texCarte, _texPoisson;
 
-        public string pseudo;
         private bool _scoreSauvegarde = false;
 
         public myGame()
@@ -86,8 +85,7 @@ namespace FishGame
                 _scoreSauvegarde = false;
                 if (JeuDeserializer.Etat == JeuDeseria.EtatJeu.GAGNER && !_scoreSauvegarde)
                 {
-           
-                
+                    
                     HighscoreDom highscoreDom = new HighscoreDom("../../../xml/SauvegardePartie.xml");
                 
                     highscoreDom.AjouterScore( 30 - JeuDeserializer.MonNiveau._Pecheur.MouvementRestant);
@@ -105,12 +103,10 @@ namespace FishGame
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-
-
+            
             _spriteBatch.Begin();
             if (JeuDeserializer.MonNiveau != null)
             {
-
                 if (JeuDeserializer.MonNiveau.grille != null)
                 {
                     foreach (Tuile t in JeuDeserializer.MonNiveau.grille)
