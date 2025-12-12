@@ -7,8 +7,9 @@ using Microsoft.Xna.Framework;
 
 namespace FishGame;
 
-[Serializable]
+
 [XmlRoot("jeu", Namespace ="http://www.l3miage.fr/JeuPoissonEnAccordUML")] 
+[Serializable]
 public class JeuDeseria
 {
     [XmlElement("niveauCourant")] public unNiveau MonNiveau;
